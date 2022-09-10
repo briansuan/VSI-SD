@@ -1,0 +1,1443 @@
+
+html {
+	scroll-behavior: smooth;
+	
+}
+body {
+	margin: 0;
+	justify-content: center;
+	overflow-x: hidden;
+
+}
+nav {
+	box-shadow: 1px 1px 2px #D3D3D3;
+}
+.projectsbody {
+	background-image: linear-gradient(45deg, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.5)), url("backgroundfinal.jpg");
+   	background-size: cover;
+   	background-repeat: no-repeat;
+  	background-attachment: fixed;
+   	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   	margin: 0;
+   	padding: 0;
+}
+.jumbotron {
+	background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.6), rgba(70, 130, 180, 0.8)), url("backgroundfinal.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+#aboutcol {
+	height: 800px;
+}
+.container h1 {
+	position: relative;
+	font-family: 'Russo One', sans-serif;
+	font-size: 5em;
+	color: #000;
+	text-shadow: 4px 4px 6px #333; 
+}
+#inc {
+	position: relative;
+	font-family: 'Russo One', sans-serif;
+	font-size: 5em;
+	color: white;
+	text-shadow: 4px 4px 6px #333; 
+}
+#logo {
+	float: left;
+	height: 300px;
+	width: 300px;
+	margin-left: 175px;
+	padding-right: -100px;
+}
+#headerpara {
+	text-align: center;
+	margin-top: -25px;
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+}
+.headerstyle p {
+	text-align: center;
+	font-size: 17px;
+}
+.headerstyle h1, h4{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+}
+#vsifont {
+	font-family: 'Russo One', sans-serif;
+	font-size: 1.4em;
+}
+.card-deck .card {
+	text-align: center;
+	color: #4682B4;
+}
+.servicespic {
+	margin: auto;
+	border-radius: 10%;
+	height: 90px;
+	width: 90px;
+}
+.contactspic {
+	padding-top: 30px;
+	margin: auto;
+	height: 85px;
+	width: 60px;
+}
+#projheader {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: #000;
+}
+#projheader hr {
+	width: 900px;
+	border: 3px solid black;
+}
+#projheader h2 {
+	text-shadow: 2px 2px 6px #707070;
+}
+#projheader img {
+	height: 85px;
+	width: 85px;
+}
+.projectspic {
+	margin: auto;
+	height: 785px;
+}
+.carousel-caption p {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.carousel-caption h1 {
+	text-shadow: 5px 5px 10px #000;
+}
+#projcollapse {
+	text-align: center;
+	color: #4682B4;
+}
+.card-title {
+	font-size: 26px;
+	font-weight: bold;
+}
+.card-text {
+	color: #000;
+	font-size: 15px;
+}
+#contactpara {
+	color: #000;
+	font-size: 17px;
+	font-weight: 650;
+}
+#footerlogo {
+	width: 35px;
+	height: 35px;
+}
+.main-header {
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	background-image: linear-gradient(45deg, rgba(144, 144, 144) 50%, rgba(70, 130, 180) 50%);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px auto;
+}
+.main-header2 {
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	background-image: linear-gradient(135deg, rgba(70, 130, 180) 50%, rgba(144, 144, 144) 50%);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px auto;
+}
+#bbcover {
+	height: 560px;
+	width: 460px;
+	box-shadow: 4px 4px 4px #333;
+	display: inline;
+}
+#bbcover-place {
+	display:inline;
+	float: right;
+	margin-top: 20px;
+	margin-right: 120px;
+}
+#bbpara {
+	font-size: 1.1em;
+	display: inline;
+	float: left;
+	height: 600px;
+	width: 510px;
+	margin-left: 120px;
+	margin-top: 15px;
+}
+.btn-lg {
+	margin-top: 40px;
+	margin-left: 395px;
+}
+#storypara {
+	font-size: 1.1em;
+	display: inline;
+	float: right;
+	height: 600px;
+	width: 510px;
+	margin-right: 120px;
+	margin-top: 15px;
+}
+#storyphoto {
+	display: inline;
+	float: left;
+	margin-top: 40px;
+	margin-left: 150px;
+}
+#storyphoto img {
+	height: 450px;
+	width: 450px;\
+}
+#story-bottom {
+	margin-bottom: 650px;
+}
+#bizpara {
+	font-size: 1.1em;
+	display: inline;
+	float: left;
+	height: 600px;
+	width: 510px;
+	margin-left: 120px;
+	margin-top: 150px;
+}
+#bizcover {
+	height: 400px;
+	width: 560px;
+	display: inline;
+}
+#bizcover-place {
+	display:inline;
+	float: right;
+	margin-top: 100px;
+	margin-right: 120px;
+}
+.btn-lg-biz {
+	margin-top: 40px;
+	margin-left: 345px;
+}
+#custlogo-small {
+	margin: auto;
+	height: 275px;
+}
+#custlogo-big {
+	margin: auto;
+	height: 275px;
+}
+footer {
+	font-family: 'Russo One', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+footer h5 {
+	font-family: 'Russo One', sans-serif;
+}
+@media only screen and (max-width: 414px) and (min-width:300px) and (max-height: 896px) and (min-height: 500px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.projectsbody {
+		background-image: linear-gradient(45deg, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.5)), url("backgroundfinal.jpg");
+	   	background-size: cover;
+	   	background-repeat: no-repeat;
+	  	background-attachment: fixed;
+	   	-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	   	margin: 0;
+	   	padding: 0;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to top, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 690px;
+	}
+	.container h1{
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 3.5em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: center;
+	}
+	#inc {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 3.5em;
+		color: white;
+		text-shadow: 4px 4px 6px #333; 
+	}
+	#logo {
+		float: left;
+		height: 235px;
+		width: 235px;
+		margin-left: 80px;
+		margin-bottom: 15px;
+		padding-right: -100px;
+	}
+	.mobilheaderpara {
+		text-align: center;
+		color: #000;
+		font-size: 7px;
+		font-weight: 600;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+	}
+	#mobilservpara {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#bbcover {
+		height: 400px;
+		width: 300px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 145px;
+	}
+	#bbcover-place {
+		margin-top: 430px;
+		margin-right: 55px;
+	}
+	#bbpara {
+		display:inline;
+		width:320px;
+		text-align: center;
+		padding-left: 10px;
+		margin-left: 40px;
+	}
+	#storypara {
+		display:inline;
+		width:320px;
+		text-align: center;
+		padding-right: 10px;
+		margin-right: 40px;
+	}
+	#storyphoto {
+		margin-top: 25px;
+		margin-left: 80px;
+		margin-bottom: 30px;
+	}
+	#storyphoto img {
+		height: 270px;
+		width: 270px;
+	}
+	#story-bottom {
+		margin-bottom: 1300px;
+	}
+	#bizpara {
+		display:inline;
+		width:350px;
+		text-align: center;
+		padding-right: 10px;
+		margin-left: 40px;
+		margin-top: 30px;
+	}
+	#bizcover {
+		height: 300px;
+		width: 450px;
+	}
+	#bizcover-place {
+		margin-top: -180px;
+		margin-right: 0px;
+		margin-left: 5px;
+	}
+	#projheader hr {
+		width: 380px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 1.5em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+	#projheader {
+		text-align: center;
+		font-family: 'Russo One', sans-serif;
+		color: #000;
+	}
+	.projectspic {
+		margin: auto;
+		height: 500px;
+	}
+	.carousel-caption p {
+		font-size: 0.9em;
+		font-weight: bold;
+	}
+	.carousel-caption h1 {
+		font-size: 1.8em;
+		text-shadow: 5px 5px 10px #000;
+	}
+	#custlogo-small {
+		margin: auto;
+		height: 100px;
+	}
+	#custlogo-big {
+		margin: auto;
+		height: 100px;
+	}
+	footer {
+		font-size: 13px;
+		font-family: 'Russo One', sans-serif;
+		margin: auto;
+		text-align: center;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+@media only screen and (width: 1024px) and (height: 1366px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+	.container h1 {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 4em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: left;
+	}
+	#mobilservpara {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	#aboutcol{
+		height: 820px;
+	}
+	#logo {
+		float: left;
+		height: 235px;
+		width: 235px;
+		margin-left: 200px;
+		padding-right: -100px;
+	}
+	#bbcover {
+		height: 550px;
+		width: 450px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 665px;
+		margin-bottom: 40px;
+	}
+	#bbcover-place {
+		margin-top: 130px;
+		margin-right: 55px;
+	}
+	#bbpara {
+		display:inline;
+		width:420px;
+		text-align: left;
+		padding-left: 10px;
+		margin-left: 50px;
+	}
+	#storypara {
+		display:inline;
+		width:500px;
+		text-align: center;
+		padding-right: 10px;
+		margin-top: 50px;
+		margin-right: 80px;
+	}
+	#storyphoto {
+		margin-top: 85px;
+		margin-left: 65px;
+	}
+	#storyphoto img {
+		height: 360px;
+		width: 360px;
+	}
+	#story-bottom {
+		margin-bottom: 650px;
+	}
+	#bizpara {
+		display:inline;
+		width:520px;
+		text-align: center;
+		padding-right: 10px;
+		margin-left: 270px;
+		margin-top: 60px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 630px;
+	}
+	#bizcover-place {
+		margin-top: -300px;
+		margin-right: 190px;
+		margin-left: 10px;
+	}
+	.btn-lg-biz {
+		margin-top: -50px;
+		margin-left: 460px;
+		margin-bottom: -200px;
+	}
+	#projheader hr {
+		width: 640px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 2em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+}
+@media only screen and (width: 1366px) and (height: 1024px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 330px;
+		margin-bottom: 40px;
+	}
+	.btn-lg-biz {
+		margin-top: 50px;
+		margin-left: 290px;
+	}
+}
+@media only screen and (width: 1024px) and (height: 768px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 500px;
+	}
+	#aboutcol {
+		height: 870px;
+	}
+	#logo {
+		float: left;
+		height: 235px;
+		width: 235px;
+		margin-left: 100px;
+		padding-right: -100px;
+	}
+	#mobilservpara {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#bbcover {
+		height: 560px;
+		width: 460px;
+		box-shadow: 4px 4px 4px #333;
+		display: inline;
+	}
+	#bbcover-place {
+		display:inline;
+		float: right;
+		margin-top: 25px;
+		margin-right: 40px;
+	}
+	#bbpara {
+		font-size: 1.1em;
+		display: inline;
+		float: left;
+		height: 600px;
+		width: 400px;
+		margin-left: 60px;
+		margin-top: 15px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 230px;
+		margin-bottom: 100px;
+	}
+	#storypara {
+		font-size: 1.1em;
+		display: inline;
+		float: right;
+		height: 600px;
+		width: 510px;
+		margin-right: 50px;
+		margin-top: 35px;
+	}
+	#storyphoto {
+		display: inline;
+		float: left;
+		margin-top: 80px;
+		margin-left: 60px;
+	}
+	#storyphoto img {
+		height: 350px;
+		width: 350px;
+	}
+	#story-bottom {
+		margin-bottom: 650px;
+	}
+	#bizpara {
+		display: inline;
+		text-align: left;
+		height: 600px;
+		width: 410px;
+		margin-left: 50px;
+		margin-top: 65px;
+	}
+	#bizcover {
+		height: 300px;
+		width: 460px;
+		display: inline;
+	}
+	#bizcover-place {
+		display:inline;
+		float: right;
+		margin-top: 50px;
+		margin-right: 30px;
+	}
+	.btn-lg-biz {
+		margin-top: 40px;
+		margin-left: 245px;
+	}
+	#projheader hr {
+		width: 640px;
+		border: 3px solid black;
+	}
+}
+@media only screen and (width: 768px) and (height: 1024px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+	#logo {
+		float: left;
+		height: 235px;
+		width: 235px;
+		margin-left: 100px;
+		padding-right: -100px;
+	}
+	.container h1 {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 3.5em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: left;
+		margin-left: 100px;
+	}
+	#mobilservpara {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#bbcover {
+		height: 450px;
+		width: 350px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 155px;
+		margin-bottom: 240px;
+	}
+	#bbcover-place {
+		margin-top: 230px;
+		margin-right: 35px;
+	}
+	#bbpara {
+		display:inline;
+		width:320px;
+		text-align: left;
+		padding-left: 10px;
+		margin-left: 20px;
+		margin-bottom: 400px;
+	}
+	#storypara {
+		display:inline;
+		width:600px;
+		text-align: center;
+		padding-right: 10px;
+		margin-top: 50px;
+		margin-right: 80px;
+	}
+	#storyphoto {
+		margin-top: 25px;
+		margin-left: 210px;
+	}
+	#storyphoto img {
+		height: 360px;
+		width: 360px;
+	}
+	#story-bottom {
+		margin-bottom: 1000px;
+	}
+	#bizpara {
+		display:inline;
+		width:520px;
+		text-align: center;
+		padding-right: 10px;
+		margin-left: 130px;
+		margin-top: 60px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 630px;
+	}
+	#bizcover-place {
+		margin-top: -300px;
+		margin-right: 60px;
+		margin-left: 10px;
+	}
+	.btn-lg-biz {
+		margin-top: -10px;
+		margin-left: 325px;
+		margin-bottom: -200px;
+	}
+	#projheader hr {
+		width: 480px;
+		border: 3px solid black;
+	}
+}
+@media all and (min-width: 1450px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	#bbpara {
+		margin-left: 300px;
+	}
+	#bbcover-place {
+		margin-right: 400px;
+	}
+	.container-about {
+		width: 1200px;
+	}
+	#storypara {
+		margin-right: 350px;
+		margin-top: 70px;
+	}
+	#storyphoto {
+		margin-top: 70px;
+		margin-left: 300px;
+	}
+	#storyphoto img {
+		height: 500px;
+		width: 500px;
+	}
+	#bizpara {
+		margin-top:200px;
+		margin-left: 300px;
+	}	
+	#bizcover-place {
+		margin-right: 400px;
+	}
+}
+@media all and (width: 2560px) and (min-height: 1440px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	#bbpara {
+		margin-left: 500px;
+		width: 700px;
+		font-size: 1.3em;
+	}
+	#bbcover-place {
+		margin-right: 660px;
+	}
+	#storypara {
+		margin-right: 500px;
+		width: 700px;
+		font-size: 1.3em;
+	}
+	#storyphoto {
+		margin-left: 600px;
+	}
+	#storyphoto img {
+		height: 450px;
+		width: 450px;
+	}
+	#bizpara {
+		margin-top:200px;
+		margin-left: 600px;
+	}	
+	#bizcover-place {
+		margin-right: 530px;
+	}
+	.btn-lg-biz {
+		margin-top: 50px;
+		margin-left: 580px;
+	}
+	#projheader hr {
+		width: 1000px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 2em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+	.projectspic {
+		margin: auto;
+		height: 1200px;
+	}
+} 
+@media only screen and (width: 414px) and (height: 736px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	#logo {
+		float: left;
+		height: 245px;
+		width: 245px;
+		margin-left: 75px;
+		margin-bottom: 15px;
+		padding-right: -100px;
+	}
+	#bbcover {
+		height: 400px;
+		width: 300px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 145px;
+	}
+	#bbcover-place {
+		margin-top: 430px;
+		margin-right: 55px;
+	}
+	#bbpara {
+		display:inline;
+		width:320px;
+		text-align: center;
+		padding-left: 10px;
+		margin-left: 40px;
+	}
+	#storypara {
+		display:inline;
+		width:320px;
+		text-align: center;
+		padding-right: 10px;
+		margin-right: 40px;
+	}
+	#storyphoto {
+		margin-top: 25px;
+		margin-left: 60px;
+		margin-bottom: 30px;
+	}
+	#storyphoto {
+		display: inline;
+		float: left;
+		margin-top: 30px;
+		margin-left: 80px;
+	}
+	#storyphoto img {
+		height: 270px;
+		width: 270px;
+	}
+	#story-bottom {
+		margin-bottom: 1300px;
+	}
+	#bizpara {
+		display:inline;
+		width:320px;
+		text-align: center;
+		padding-right: 10px;
+		margin-left: 55px;
+		margin-top: 30px;
+	}
+	#bizcover {
+		height: 300px;
+		width: 415px;
+	}
+	#bizcover-place {
+		margin-top: -100px;
+		margin-left: 8px;
+	}
+}
+@media only screen and (width:1536px) and (height:2048px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 500px;
+	}
+	.container h1 {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: left;
+	}
+	#inc {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: white;
+		text-shadow: 4px 4px 6px #333; 
+	}
+	#headerpara {
+		text-align: center;
+		margin-top: -15px;
+		color: #000;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	#mobilservpara {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	#logo {
+		float: left;
+		height: 335px;
+		width: 335px;
+		margin-left: 200px;
+		padding-right: -10px;
+	}
+	#bbcover {
+		height: 580px;
+		width: 480px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 395px;
+		margin-bottom: 0px;
+	}
+	#bbcover-place {
+		margin-top: 20px;
+		margin-right: 105px;
+	}
+	#bbpara {
+		display:inline;
+		width:620px;
+		text-align: left;
+		padding-left: 10px;
+		margin-left: 100px;
+	}
+	#storypara {
+		display:inline;
+		width:600px;
+		text-align: left;
+		padding-right: 10px;
+		margin-top: 50px;
+		margin-right: 150px;
+	}
+	#storyphoto {
+		margin-top: 85px;
+		margin-left: 165px;
+	}
+	#storyphoto img {
+		height: 460px;
+		width: 460px;
+	}
+	#story-bottom {
+		margin-bottom: 650px;
+	}
+	#bizpara {
+		display:inline;
+		width:520px;
+		text-align: left;
+		padding-right: 10px;
+		margin-left: 170px;
+		margin-top: 200px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 630px;
+	}
+	#bizcover-place {
+		margin-top: 100px;
+		margin-right: 130px;
+		margin-left: 10px;
+	}
+	.btn-lg-biz {
+		margin-top: -50px;
+		margin-left: 350px;
+		margin-bottom: -200px;
+	}
+	#projheader hr {
+		width: 1000px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 2em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+	.projectspic {
+		margin: auto;
+		height: 985px;
+	}
+	#custlogo-small {
+		margin: auto;
+		height: 200px;
+	}
+	#custlogo-big {
+		margin: auto;
+		height: 200px;
+	}
+}
+@media only screen and (width: 2048px) and (height:2732px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 500px;
+	}
+	.container h1 {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: left;
+	}
+	#inc {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: white;
+		text-shadow: 4px 4px 6px #333; 
+	}
+	#headerpara {
+		text-align: center;
+		margin-top: -15px;
+		color: #000;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	#mobilservpara {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	#logo {
+		float: left;
+		height: 335px;
+		width: 335px;
+		margin-left: 190px;
+		padding-right: -10px;
+	}
+	#bbcover {
+		height: 680px;
+		width: 580px;
+	}
+	.btn-lg {
+		margin-top: 60px;
+		margin-left: 1350px;
+		margin-bottom: 0px;
+	}
+	#bbcover-place {
+		margin-top: 20px;
+		margin-right: 350px;
+	}
+	#bbpara {
+		display:inline;
+		width:500px;
+		text-align: left;
+		padding-left: 10px;
+		margin-left: 400px;
+	}
+	#storypara {
+		display:inline;
+		width:600px;
+		text-align: left;
+		padding-right: 10px;
+		margin-top: 50px;
+		margin-right: 350px;
+	}
+	#storyphoto {
+		margin-top: 40px;
+		margin-left: 375px;
+	}
+	#storyphoto img {
+		height: 500px;
+		width: 500px;
+	}
+	#story-bottom {
+		margin-bottom: 650px;
+	}
+	#bizpara {
+		display:inline;
+		width:500px;
+		text-align: left;
+		padding-right: 10px;
+		margin-left: 370px;
+		margin-top: 200px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 630px;
+	}
+	#bizcover-place {
+		margin-top: 100px;
+		margin-right: 330px;
+		margin-left: 10px;
+	}
+	.btn-lg-biz {
+		margin-top: -50px;
+		margin-left: 475px;
+		margin-bottom: -200px;
+	}
+	#projheader hr {
+		width: 1000px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 2em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+	.projectspic {
+		margin: auto;
+		height: 985px;
+	}
+	#custlogo-small {
+		margin: auto;
+		height: 250px;
+	}
+	#custlogo-big {
+		margin: auto;
+		height: 250px;
+	}
+}
+@media only screen and (width: 2732px) and (height: 2048PX) {
+	html {
+		scroll-behavior: smooth;
+	}
+	#bbcover {
+		height: 660px;
+		width: 560px;
+		box-shadow: 4px 4px 4px #333;
+		display: inline;
+	}
+	#bbcover-place {
+		display:inline;
+		float: right;
+		margin-top: 25px;
+		margin-right: 660px;
+	}
+	#bbpara {
+		font-size: 1.3em;
+		display: inline;
+		float: left;
+		height: 600px;
+		width: 650px;
+		margin-left: 660px;
+		margin-top: 15px;
+	}
+	.btn-lg {
+		margin-top: 65px;
+		margin-left: 1735px;
+		margin-bottom: 20px;
+	}
+	#storypara {
+		font-size: 1.3em;
+		display: inline;
+		float: right;
+		height: 600px;
+		width: 650px;
+		margin-right: 650px;
+		margin-top: 35px;
+	}
+	#storyphoto {
+		display: inline;
+		float: left;
+		margin-top: 80px;
+		margin-left: 660px;
+	}
+	#storyphoto img {
+		height: 450px;
+		width: 450px;
+	}
+	#story-bottom {
+		margin-bottom: 700px;
+	}
+	#bizpara {
+		font-size: 1.3em;
+		display: inline;
+		text-align: left;
+		height: 600px;
+		width: 610px;
+		margin-left: 660px;
+		margin-top: 155px;
+	}
+	#bizcover {
+		height: 400px;
+		width: 560px;
+		display: inline;
+	}
+	#bizcover-place {
+		display:inline;
+		float: right;
+		margin-top: 75px;
+		margin-right: 650px;
+	}
+	.btn-lg-biz {
+		margin-top: 40px;
+		margin-left: 485px;
+	}
+	.projectspic {
+		margin: auto;
+		height: 1200px;
+	}
+}
+@media only screen and (width: 1668px) and (height:2388px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	.jumbotron {
+		background-image: linear-gradient(to bottom, rgba(144, 144, 144, 0.5), rgba(70, 130, 180, 0.7)), url("backgroundfinal.jpg");
+		background-size: cover;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		padding: 0;
+		margin: 0;
+		height: 500px;
+	}
+	.container h1 {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: #000;
+		text-shadow: 4px 4px 6px #333; 
+		text-align: left;
+	}
+	#inc {
+		position: relative;
+		font-family: 'Russo One', sans-serif;
+		font-size: 5em;
+		color: white;
+		text-shadow: 4px 4px 6px #333; 
+	}
+	#headerpara {
+		text-align: center;
+		margin-top: -15px;
+		color: #000;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	#mobilservpara {
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	#logo {
+		float: left;
+		height: 335px;
+		width: 335px;
+		margin-left: 200px;
+		padding-right: -10px;
+	}
+	#bbcover {
+		height: 580px;
+		width: 480px;
+	}
+	.btn-lg {
+		margin-top: 40px;
+		margin-left: 395px;
+		margin-bottom: 0px;
+	}
+	#bbcover-place {
+		margin-top: 20px;
+		margin-right: 200px;
+	}
+	#bbpara {
+		display:inline;
+		width:620px;
+		text-align: left;
+		padding-left: 10px;
+		margin-left: 150px;
+	}
+	#storypara {
+		display:inline;
+		width:600px;
+		text-align: left;
+		padding-right: 10px;
+		margin-top: 50px;
+		margin-right: 250px;
+	}
+	#storyphoto {
+		margin-top: 65px;
+		margin-left: 200px;
+	}
+	#storyphoto img {
+		height: 460px;
+		width: 460px;
+	}
+	#story-bottom {
+		margin-bottom: 650px;
+	}
+	#bizpara {
+		display:inline;
+		width:520px;
+		text-align: left;
+		padding-right: 10px;
+		margin-left: 170px;
+		margin-top: 200px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 630px;
+	}
+	#bizcover-place {
+		margin-top: 100px;
+		margin-right: 230px;
+		margin-left: 10px;
+	}
+	.btn-lg-biz {
+		margin-top: -50px;
+		margin-left: 350px;
+		margin-bottom: -200px;
+	}
+	#projheader hr {
+		width: 1000px;
+		border: 3px solid black;
+	}
+	#projheader h2 {
+		font-size: 2em;
+		text-shadow: 2px 2px 6px #707070;
+	}
+	.projectspic {
+		margin: auto;
+		height: 985px;
+	}
+}
+@media only screen and (width: 2388px) and (height:1668px) {
+	html {
+		scroll-behavior: smooth;
+	}
+	#bbcover {
+		height: 660px;
+		width: 560px;
+		box-shadow: 4px 4px 4px #333;
+		display: inline;
+	}
+	#bbcover-place {
+		display:inline;
+		float: right;
+		margin-top: 25px;
+		margin-right: 460px;
+	}
+	#bbpara {
+		font-size: 1.3em;
+		display: inline;
+		float: left;
+		height: 600px;
+		width: 650px;
+		margin-left: 460px;
+		margin-top: 15px;
+	}
+	.btn-lg {
+		margin-top: 65px;
+		margin-left: 1600px;
+		margin-bottom: 20px;
+	}
+	#storypara {
+		font-size: 1.3em;
+		display: inline;
+		float: right;
+		height: 600px;
+		width: 650px;
+		margin-right: 450px;
+		margin-top: 35px;
+	}
+	#storyphoto {
+		display: inline;
+		float: left;
+		margin-top: 80px;
+		margin-left: 460px;
+	}
+	#storyphoto img {
+		height: 550px;
+		width: 550px;
+	}
+	#story-bottom {
+		margin-bottom: 700px;
+	}
+	#bizpara {
+		font-size: 1.3em;
+		display: inline;
+		text-align: left;
+		height: 600px;
+		width: 610px;
+		margin-left: 460px;
+		margin-top: 155px;
+	}
+	#bizcover {
+		height: 500px;
+		width: 660px;
+		display: inline;
+	}
+	#bizcover-place {
+		display:inline;
+		float: right;
+		margin-top: 75px;
+		margin-right: 450px;
+	}
+	.btn-lg-biz {
+		margin-top: 40px;
+		margin-left: 485px;
+	}
+	.projectspic {
+		margin: auto;
+		height: 1200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
